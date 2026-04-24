@@ -1,0 +1,37 @@
+File,Column,Type,Description
+transactions_YYYY_MM.csv,TxnID,int,Unique transaction identifier
+transactions_YYYY_MM.csv,TxnDate,date,Transaction date
+transactions_YYYY_MM.csv,UserID,string,Anonymized user identifier
+transactions_YYYY_MM.csv,StateCode,string,State code (lowercase with underscores)
+transactions_YYYY_MM.csv,AppID,string,App identifier matching apps.csv
+transactions_YYYY_MM.csv,Amount,int,Transaction amount in INR
+transactions_YYYY_MM.csv,Status,string,Transaction status: Success/Failed/Pending
+transactions_YYYY_MM.csv,FailReason,string,Failure reason if any
+transactions_YYYY_MM.csv,BankID,int,Synthetic bank identifier
+transactions_YYYY_MM.csv,TxnType,string,"P2P, P2M, Bill, Recharge"
+transactions_YYYY_MM.csv,Channel,string,App or Web
+transactions_YYYY_MM.csv,DeviceOS,string,Android/iOS/Other
+transactions_YYYY_MM.csv,SettlementDelayHours,float,Settlement delay in hours (for successful txns)
+transactions_YYYY_MM.csv,SettlementStatus,string,Settled/Pending/FailedSettled
+apps.csv,AppID,string,"App identifier (phonepe, google_pay, etc.)"
+apps.csv,ParentCompany,string,Parent company name for the app
+states.csv,StateCode,string,State code (lowercase with underscores)
+states.csv,StateName,string,Readable state name
+states.csv,Region,string,Region grouping
+states.csv,Population,int,Synthetic population estimate
+states.csv,InternetPenetration,float,Internet penetration percent
+date_dim.csv,Date,date,Calendar date
+date_dim.csv,DateKey,int,YYYYMMDD integer key
+date_dim.csv,Year,int,Year
+date_dim.csv,Month,int,Month number
+date_dim.csv,Quarter,int,Quarter
+date_dim.csv,WeekOfYear,int,ISO week number
+date_dim.csv,IsWeekend,bool,Is weekend flag
+rewards.csv,RewardID,string,Reward identifier R{TxnID}
+rewards.csv,TxnID,int,Associated transaction id
+rewards.csv,Date,date,Reward issuance date
+rewards.csv,AppID,string,App identifier
+rewards.csv,UserID,string,User id
+rewards.csv,CashbackIssued,float,Amount issued as cashback
+rewards.csv,CashbackRedeemed,float,Amount redeemed by user
+rewards.csv,RedeemedDate,date,Date redeemed (if any)

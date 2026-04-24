@@ -1,0 +1,37 @@
+StateCode,StateName,Region,Population,InternetPenetration
+andhra_pradesh,Andhra Pradesh,South,24967141,57.9
+arunachal_pradesh,Arunachal Pradesh,North-East,26476885,82.8
+assam,Assam,East,17658466,56.5
+bihar,Bihar,North,35792128,71.5
+chhattisgarh,Chhattisgarh,West,15305256,68.1
+goa,Goa,South,15365823,53.0
+gujarat,Gujarat,West,22419622,31.3
+haryana,Haryana,North,2750821,51.6
+himachal_pradesh,Himachal Pradesh,North,9871688,64.7
+jharkhand,Jharkhand,East,10919759,38.8
+karnataka,Karnataka,South,34656487,56.6
+kerala,Kerala,South,20675282,38.6
+madhya_pradesh,Madhya Pradesh,Central,14556172,61.7
+maharashtra,Maharashtra,West,8490064,65.6
+manipur,Manipur,North-East,13993613,55.6
+meghalaya,Meghalaya,North-East,13982933,87.8
+mizoram,Mizoram,North-East,19865027,44.1
+nagaland,Nagaland,North-East,28225449,41.7
+odisha,Odisha,East,22088635,30.6
+punjab,Punjab,North,6718139,63.0
+rajasthan,Rajasthan,West,27384665,62.6
+sikkim,Sikkim,East,18843517,55.5
+tamil_nadu,Tamil Nadu,South,5214780,49.2
+telangana,Telangana,South,15393612,75.9
+tripura,Tripura,North,23436182,33.6
+uttar_pradesh,Uttar Pradesh,North,23240839,54.2
+uttarakhand,Uttarakhand,East,13230779,69.2
+west_bengal,West Bengal,North,30309995,74.0
+delhi,Delhi,North,11607824,55.4
+jammu_&_kashmir,Jammu & Kashmir,North,23312634,74.6
+ladakh,Ladakh,South,15208257,57.2
+puducherry,Puducherry,North,8936650,42.1
+chandigarh,Chandigarh,South,28125258,80.3
+andaman_&_nicobar,Andaman & Nicobar,West,19279898,75.1
+dadra_&_nagar_haveli,Dadra & Nagar Haveli,West,23616360,50.3
+daman_&_diu,Daman & Diu,South,23613956,83.1

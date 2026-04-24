@@ -1,0 +1,93 @@
+?? Basic Data Understanding Questions
+
+1. How many transactions are there in total?
+
+2. How many unique users made transactions?
+
+3. What are the unique transaction types (TxnType) present in the dataset?
+
+"4. Which payment apps (AppID) are used, and which is the most popular one?"
+
+"5. How many transactions are marked as “Success,” “Failed,” or “Pending”?"
+
+6. What is the average transaction amount across all transactions?
+
+7. How many distinct states (StateCode) are represented in the dataset?
+
+
+
+?? Exploratory Data Analysis (EDA) Questions
+
+8. Which state has the highest total transaction amount?
+
+9. Which AppID contributes the most to the total transaction volume?
+
+10. What is the average settlement delay (in hours) for successful transactions?
+
+11. Which BankID has the most failed transactions?
+
+12. Is there a correlation between FrozenFunds and PendingTxns?
+
+13. Are there any patterns between device type (DeviceOS) and transaction success rate?
+
+14. Find the top 5 users (UserID) with the highest total transaction value.
+
+15. Identify peak transaction dates — when were the most transactions made?
+
+
+
+?? Data Cleaning & Quality Questions
+
+16. How will you handle missing values in SettlementDelayHours and FailReason?
+
+17. Are there any duplicate TxnID values in the dataset?
+
+18. How would you convert the TxnDate column into a proper date format and extract the day/month?
+
+19. Check if any Amount values are zero or negative — how would you treat them?
+
+20. How would you validate that PendingTxns and FrozenFunds are consistent with transaction Status?
+
+
+
+?? Analytical & Business Insight Questions
+
+21. Which app (AppID) has the highest failure rate?
+
+22. What is the total value of failed transactions per bank?
+
+23. Which states show the highest number of failed transactions?
+
+24. What percentage of total transactions are made through the Web channel vs App?
+
+25. Which device OS (Android/iOS) has a higher average transaction amount?
+
+26. What is the average number of pending transactions for users with failed payments?
+
+"27. Does settlement delay differ across transaction types (P2P, P2M, Bill)?"
+
+
+
+?? Advanced / ML-Oriented Questions
+
+28. How would you build a model to predict transaction success or failure?
+
+29. Which features (columns) would be most important in predicting transaction outcomes?
+
+30. How would you detect potential fraudulent transactions using this dataset?
+
+"31. Can you cluster users based on transaction behavior (App usage, average amount, frequency)?"
+
+32. How would you visualize transaction trends over time (daily or weekly)?
+
+
+
+?? SQL or Data Manipulation Questions
+
+33. Write a SQL query to find the total transaction amount per AppID.
+
+34. Write a SQL query to find the top 3 states by successful transaction amount.
+
+35. Write a SQL query to calculate average settlement delay by BankID.
+
+36. Write a SQL query to count failed transactions grouped by DeviceOS and TxnType.
